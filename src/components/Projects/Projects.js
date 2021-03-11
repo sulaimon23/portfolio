@@ -42,7 +42,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -50,7 +50,7 @@ function Projects() {
               description="AfricConnect is a global network comprising of African genealogy, historical records, insights, and stories intended to connect and help people of African descent trace their roots through the building of family trees."
               link="https://africconnect.com/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
