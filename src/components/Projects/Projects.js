@@ -23,7 +23,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={evisit}
               isBlog={false}
@@ -31,7 +31,7 @@ function Projects() {
               description="A visitor management system used to Keep tabs on your guests, deliveries and everything in between with our more business oriented option that promises to promote organization and efficiency."
               link="https://evisit.com.ng/"
             />
-          </Col>
+          </Col> */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={green}
