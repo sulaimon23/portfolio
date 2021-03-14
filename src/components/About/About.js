@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/my_pic.jpg";
 
 function About() {
   return (
@@ -22,7 +22,13 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1
+              style={{
+                fontSize: "2.1em",
+                paddingBottom: "20px",
+                textAlign: "left",
+              }}
+            >
               Know Who <strong className="purple">I'M</strong>
             </h1>
             <Aboutcard />
