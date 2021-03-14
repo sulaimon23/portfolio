@@ -4,7 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
-
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
