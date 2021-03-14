@@ -272,6 +272,18 @@ html {
   padding-top: 30px !important;
 }
 
+.mine {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url(./Assets/my_pic.jpg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-position-y: 30%;
+  size: inherit;
+  background-size: 150%;
+}
+
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
