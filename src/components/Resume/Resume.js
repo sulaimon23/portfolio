@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import pdf from "../../Assets/Cover (3).pdf";
+import pdf from "../../Assets/Taiwo Sulaimon.pdf";
 
 function Resume() {
   return (
@@ -22,7 +22,7 @@ function Resume() {
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Lead Developer [Adspace]"
-              date="June 2020 - August 2020"
+              date="Jan 2020 - 2021"
               content={[
                 "Managed full-cycle design tasks, handling all phases from conception to completion while maintaining guidelines throughout.",
                 " Reviewed and tested and tested customer-facing prototypes before deployment, applying best practice diagnosing techniques to verify usability.",
@@ -50,6 +50,10 @@ function Resume() {
             />
             <Resumecontent title="HNG Internship [HNGi7]" date="2020" />
             <Resumecontent title="Desktop Publishing [Amazeen] " date="2019" />
+            <Resumecontent
+              title="Auto CAD Design [Global Techs] "
+              date="2018"
+            />
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
