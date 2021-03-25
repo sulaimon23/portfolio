@@ -31,7 +31,27 @@ function Projects() {
               description="A visitor management system used to Keep tabs on your guests, deliveries and everything in between with our more business oriented option that promises to promote organization and efficiency."
               link="https://evisit.com.ng/"
             />
+            
           </Col> */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={up1}
+              isBlog={false}
+              title="Adspace"
+              description="A Platform for booking, creating, maintaining and selling Adspaces. With feature for  getting  influencer "
+              link="https://adspace-web.vercel.app/planning"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={up3}
+              isBlog={false}
+              title="Capitalluxury"
+              description="An Uber like platform, For maintaining and aiding transportation"
+              link="http://capitalluxury.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={green}
@@ -51,26 +71,6 @@ function Projects() {
               link="https://africconnect.com/"
             />
           </Col> */}
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={up1}
-              isBlog={false}
-              title="Adspace"
-              description="A Platform for booking, creating, maintaining and selling Adspaces. With feature for  getting  influencer "
-              link="https://mediaplan.adspace.ng/profile"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={up3}
-              isBlog={false}
-              title="Capitalluxury"
-              description="An Uber like platform, For maintaining and aiding transportation"
-              link="http://capitalluxury.app/"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
