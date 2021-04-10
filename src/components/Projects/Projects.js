@@ -9,7 +9,7 @@ import up1 from "../../Assets/Projects/up1.PNG";
 import up3 from "../../Assets/Projects/up3.PNG";
 // import editor from "../../Assets/Projects/afri.PNG";
 // import evisit from "../../Assets/Projects/evisit.PNG";
-import green from "../../Assets/Projects/green.PNG";
+// import green from "../../Assets/Projects/green.PNG";
 
 function Projects() {
   return (
