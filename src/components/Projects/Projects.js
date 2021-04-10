@@ -52,15 +52,6 @@ function Projects() {
               link="http://capitalluxury.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={green}
-              isBlog={false}
-              title="Greenpeg Academy"
-              description="A platform aimed at bridging the knowledge gaps with emphasis on hands-on vendor- neutral technical principles."
-              link="https://www.greenpegacademy.com/"
-            />
-          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
