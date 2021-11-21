@@ -2,16 +2,19 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 
 function Type() {
-  return (
-    <Typewriter
-      options={{
-        strings: ["Developer", "Creative", "MERN Stack Developer", "Tutor"],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
-      }}
-    />
-  );
+    return (
+        <div className="flex">
+            What i do!!
+            <Typewriter
+                options={{
+                    strings: ["Angularjs", "React.js", "TypeScript", "Next.js"],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 50,
+                }}
+            />
+        </div>
+    );
 }
 
 export default Type;

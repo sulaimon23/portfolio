@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import pdf from "../../Assets/Taiwo Sulaimon.pdf";
+import pdf from "../../Assets/SulaimonAdebayo.pdf";
 
 function Resume() {
     return (
@@ -15,13 +15,21 @@ function Resume() {
                 <Row style={{ justifyContent: "center", position: "relative" }}>
                     <Button variant="primary" href={pdf} target="_blank">
                         <i className="fas fa-download">&nbsp;</i>Download CV
-          </Button>
+                    </Button>
                 </Row>
                 <Row className="resume">
                     <Col md={6} className="resume-left">
                         <h3 className="resume-title">Experience</h3>
                         <Resumecontent
                             title="Front End Developer [Mecho Autotech]"
+                            date="2021"
+                            content={[
+                                "Collaborating with the UI/UX design team to increase conversion rate by creating perfect  websites and applications",
+                                "Developing my team-work skills by working in collaboration with fellow developers",
+                            ]}
+                        />
+                        <Resumecontent
+                            title="Front End Developer [Buy like dealers]"
                             date="2021"
                             content={[
                                 "Managed full-cycle design tasks, handling all phases from conception to completion while maintaining guidelines throughout.",
@@ -32,8 +40,8 @@ function Resume() {
                             title="Lead Developer [Adspace]"
                             date="2020"
                             content={[
-                                "Managed full-cycle design tasks, handling all phases from conception to completion while maintaining guidelines throughout.",
-                                " Reviewed and tested and tested customer-facing prototypes before deployment, applying best practice diagnosing techniques to verify usability.",
+                                "Effectively multi-tasked and worked well with internal and external teams.",
+                                "Created detailed technical and user documentation.",
                             ]}
                         />
                         <h3 className="resume-title">Past Activities</h3>
@@ -56,8 +64,14 @@ function Resume() {
                             title="Computer Science [Yaba Tech] "
                             date="2014 - 2017"
                         />
-                        <Resumecontent title="HNG Internship [HNGi7]" date="2020" />
-                        <Resumecontent title="Desktop Publishing [Amazeen] " date="2019" />
+                        <Resumecontent
+                            title="HNG Internship [HNGi7]"
+                            date="2020"
+                        />
+                        <Resumecontent
+                            title="Desktop Publishing [Amazeen] "
+                            date="2019"
+                        />
                         <Resumecontent
                             title="Auto CAD Design [Global Techs] "
                             date="2018"
@@ -67,7 +81,7 @@ function Resume() {
                 <Row style={{ justifyContent: "center", position: "relative" }}>
                     <Button variant="primary" href={pdf} target="_blank">
                         <i className="fas fa-download">&nbsp;</i>Download CV
-          </Button>
+                    </Button>
                 </Row>
             </Container>
         </Container>
