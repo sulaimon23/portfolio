@@ -3,8 +3,7 @@ import Typewriter from "typewriter-effect";
 
 function Type() {
     return (
-        <div className="flex">
-            What i do!!
+        <div className="flex mt-4">
             <Typewriter
                 options={{
                     strings: ["Angularjs", "React.js", "TypeScript", "Next.js"],
