@@ -24,7 +24,7 @@ function Home() {
 
                             <h1 className="heading-name">
                                 I'M
-                                <strong className="main-name">
+                                <strong className="main-name ml-3">
                                     TAIWO SULAIMON
                                 </strong>
                             </h1>

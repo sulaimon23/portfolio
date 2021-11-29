@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import "../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../Assets/sec.png";
+import logo from "../Assets/sec.svg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
